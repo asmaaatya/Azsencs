@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ORG"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#2A3024"
+            android:textStyle="normal"
+            android:fontFamily="casual"
+            android:text="
+
+"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:id="@+id/intro"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/skills"
+            android:text="Skills you should have to be ORG member:"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/intro"
+            android:textSize="30sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#2A3024"
+            android:textStyle="normal"
+            android:fontFamily="casual"
+            android:text="
+"
+            android:id="@+id/textskills"
+            android:layout_below="@id/skills"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="RESOURCES:"
+            android:id="@+id/rtext"
+            android:layout_below="@id/textskills"
+            android:textSize="30sp"
+            android:textColor="@android:color/black"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/book1"
+            android:id="@+id/image1"
+            android:textSize="30sp"
+            android:textColor="#4E1818"
+            android:layout_below="@id/rtext"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="10dp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:fontFamily="sans-serif-black"
+            android:textSize="20sp"
+            android:id="@+id/bokname"
+            android:layout_marginBottom="10dp"
+            android:layout_toEndOf="@id/image1"
+            android:layout_below="@id/rtext"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/yutu"
+            android:id="@+id/image2"
+            android:layout_below="@id/image1"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="10dp"
+            android:textSize="30sp"
+            android:textColor="@android:color/holo_red_dark"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_toEndOf="@id/image2"
+            android:layout_below="@id/bokname"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-black"
+            android:id="@+id/channelname"/>
+
+    </RelativeLayout>
+</ScrollView>

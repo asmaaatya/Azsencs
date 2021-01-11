@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.azsencs">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".archieveandfeed" />
+        <activity android:name=".Tablepic" />
+        <activity android:name=".Company" />
+        <activity android:name=".Marketing" />
+        <activity android:name=".Media" />
+        <activity android:name=".Resarchanddevelopment" />
+        <activity android:name=".ORG" />
+        <activity android:name=".PR" />
+        <activity android:name=".machinelearning" />
+        <activity android:name=".embded" />
+        <activity android:name=".control" />
+        <activity android:name=".security" />
+        <activity android:name=".network" />
+        <activity android:name=".javaa" />
+        <activity android:name=".feedlist" />
+        <activity android:name=".Sponsers" />
+        <activity android:name=".startactivity" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".fullscreen" />
+        <activity android:name=".Archieve" />
+        <activity android:name=".HR" />
+        <activity android:name=".web" />
+        <activity android:name=".Android" />
+        <activity android:name=".Operation" />
+        <activity android:name=".Technical" />
+        <activity android:name=".commites" />
+        <activity android:name=".whoarewe" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

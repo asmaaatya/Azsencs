@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Feedback">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter name , give us your feedback"
+    android:fontFamily="casual"
+    android:id="@+id/fdtext"
+    />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:text="your feedback is important for us to continue "
+    android:textStyle="bold"
+    android:textAlignment="center"
+    android:fontFamily="sans-serif"
+    android:textAllCaps="true"
+    android:textSize="30sp"
+    android:textColor="@android:color/black"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="Send"
+        android:id="@+id/adbtn"
+        android:textSize="20sp"
+        android:background="@drawable/btn_shape"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_shape"
+        android:text="Cancel"
+        android:textSize="20sp"
+        android:id="@+id/clbtn"/>
+
+</RelativeLayout>

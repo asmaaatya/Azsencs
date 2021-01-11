@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/archievefeed"
+        android:title="Archive"
+        android:icon="@drawable/ic_photo_size_select_actual_black_24dp"/>
+    <item
+        android:id="@+id/committe"
+        android:title="Home"
+        android:icon="@drawable/ic_home_black_24dp"/>
+    <item
+        android:id="@+id/suppliers"
+        android:title="sponsers"
+        android:icon="@drawable/ic_people_outline_black_24dp"/>
+    <item
+        android:id="@+id/events"
+        android:title="events"
+        android:icon="@drawable/ic_event_black_24dp"/>
+
+</menu>
